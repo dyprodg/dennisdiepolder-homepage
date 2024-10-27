@@ -16,9 +16,9 @@ export default function Home() {
           <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
             I offer customized solutions for websites, platforms, and cloud infrastructures. With experience in serverless web applications, containerization, and automation tools, I ensure your projects are efficient and scalable. Always looking for new challenges and opportunities, I support you in bringing your visions to life.
           </p>
-          <div className="relative w-[200px] h-[200px] rounded-full overflow-hidden border flex items-center justify-center z-50 mt-4">
+          <div className="relative w-[200px] h-[200px] rounded-full overflow-hidden border flex items-center justify-center z-50 mt-4 filter grayscale">
             <Image 
-              src={'/dennisdiepolder.jpg'}
+              src={'/dennisdiepolder.jpeg'}
               layout="fill" 
               objectFit="cover"
               alt="Dennis Diepolder"
